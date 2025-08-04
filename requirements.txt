@@ -1,18 +1,11 @@
-# Core libraries
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.5.0
-xgboost==2.1.1
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+xgboost>=2.1
+shap>=0.46
+plotly>=5.22
+matplotlib>=3.9
+joblib>=1.4
 
-# Visualization & Explainability
-matplotlib==3.9.0
-seaborn==0.13.2
-shap==0.46.0
-plotly==5.22.0
 
-# Utilities
-joblib==1.4.2
-
-# Testing (for CI/CD)
-pytest==8.2.2
 

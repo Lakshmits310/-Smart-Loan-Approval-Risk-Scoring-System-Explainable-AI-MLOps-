@@ -5,13 +5,18 @@ import shap
 import numpy as np
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
+import os
 
 # ----------------------------
 # Load Model & Preprocessing
 # ----------------------------
-model = joblib.load("models/loan_risk_model.pkl")
-scaler = joblib.load("models/scaler.pkl")
-feature_cols = joblib.load("models/feature_columns.pkl")
+
+# Use absolute path relative to app.py
+BASE_DIR = os.path.dirname(__file__)
+
+model = joblib.load(os.path.join(BASE_DIR, "models", "loan_risk_model.pkl"))
+scaler = joblib.load(os.path.join(BASE_DIR, "models", "scaler.pkl"))
+feature_cols = joblib.load(os.path.join(BASE_DIR, "models", "feature_columns.pkl"))
 
 # Determine if model is linear (needs scaling)
 is_linear = "LogisticRegression" in str(type(model))

@@ -33,4 +33,4 @@ jobs:
       # 5. Run tests (skip if no tests folder)
       - name: Run tests
         run: |
-          if [ -d "tests" ]; then pytest tests/; else echo "No tests folder, skipping"; fi
+          pytest tests/

@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 # ----------------------------
 # Load Model & Preprocessing
 # ----------------------------
-model = joblib.load("../models/loan_risk_model.pkl")
-scaler = joblib.load("../models/scaler.pkl")
-feature_cols = joblib.load("../models/feature_columns.pkl")
+model = joblib.load("models/loan_risk_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
+feature_cols = joblib.load("models/feature_columns.pkl")
 
 # Determine if model is linear (needs scaling)
 is_linear = "LogisticRegression" in str(type(model))

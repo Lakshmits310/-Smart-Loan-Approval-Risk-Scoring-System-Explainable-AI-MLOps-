@@ -1,7 +1,7 @@
 # **Smart Loan Approval & Risk Scoring System (Explainable AI + MLOps)**
 
 ### **Live Demo**
-[👉 Click here to try the app]([https://your-app-url.streamlit.app](https://smart-loan-approval-risk-scoring-system-hjem2lirywhaki2ikh3mws.streamlit.app/))
+👉 Click here to try the app - https://smart-loan-approval-risk-scoring-system-hjem2lirywhaki2ikh3mws.streamlit.app/
 
 ## **Overview**
 A **loan default prediction system** that uses **Explainable AI (XAI)** to help financial institutions and applicants understand the risk behind loan approvals.
